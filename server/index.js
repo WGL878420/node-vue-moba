@@ -10,8 +10,8 @@ app.use('/', express.static(__dirname + '/web'))
 app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/uploads', express.static(__dirname + '/uploads'))
 
-require('./plugins/db')(app)
-require('./routes/admin')(app)
+// require('./plugins/db')(app)
+// require('./routes/admin')(app)
 require('./routes/web')(app)
 
 app.listen(3002, '0.0.0.0',() => {
