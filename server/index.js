@@ -15,5 +15,5 @@ require('./routes/admin')(app)
 require('./routes/web')(app)
 
 app.listen(3002, '0.0.0.0',() => {
-  console.log('http://0.0.0.0:3002');
+  console.log('http://0.0.0.0:3002')  ;
 });
